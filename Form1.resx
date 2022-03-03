@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="whatThisDoesLabel.Text" xml:space="preserve">
+    <value>FadedTool - Simple Gui Edition
+
+How To Use:
+Step 1: Select Your Minecraft Version In The List.
+Step 1.5 (X86 ONLY): Select "x86 MC" for it to work correctly.
+Step 2: Press Spoof
+That's all, you can close the app now or keep it open for later.</value>
+  </data>
   <data name="whatIsThisLabel.Text" xml:space="preserve">
     <value>FAQ:
 What does this app do?
