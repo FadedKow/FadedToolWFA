@@ -35,8 +35,9 @@ namespace FadedToolWFA
         SelectedIndex, DidPointer, McidPointer, x86DidPointer
 */
         List<UniquePtr> Versions = new List<UniquePtr> {
-    new UniquePtr(-1, "0458F1A8,0,20,0", "045CC590,0,30,20,60,0", ""),//If user hasn't selected a game version, just use latest which should be below
+    new UniquePtr(-1, "0546B0B8,0,20,0", "054C0DE0,0,30,18,10,60,0", ""),//If user hasn't selected a game version, just use latest which should be below
 
+    new UniquePtr(14, "0546B0B8,0,20,0", "054C0DE0,0,30,18,10,60,0", ""),//1.18.31
     new UniquePtr(13, "0458F1A8,0,20,0", "045CC590,0,30,20,60,0", ""),//1.18.12
     new UniquePtr(12, "0458F1C8,0,20,0", "045CC5F0,0,30,20,60,0", ""),//1.18.10
     new UniquePtr(11, "0421B218,0,20,0", "04249B70,0,30,18,50,0", "03A87158,0,10,0"),

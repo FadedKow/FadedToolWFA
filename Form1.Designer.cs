@@ -44,7 +44,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.41679F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.58321F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 301F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 302F));
             this.tableLayoutPanel1.Controls.Add(this.versionSelectList, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.spoofButton, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.creatorLabel, 0, 2);
@@ -82,8 +82,9 @@
             "1.18.0",
             "1.18.2",
             "1.18.10.4",
-            "1.18.12.1"});
-            this.versionSelectList.Location = new System.Drawing.Point(333, 2);
+            "1.18.12.1",
+            "1.18.31"});
+            this.versionSelectList.Location = new System.Drawing.Point(332, 2);
             this.versionSelectList.Margin = new System.Windows.Forms.Padding(2);
             this.versionSelectList.Name = "versionSelectList";
             this.versionSelectList.Size = new System.Drawing.Size(163, 162);
@@ -95,7 +96,7 @@
             this.spoofButton.BackColor = System.Drawing.Color.DimGray;
             this.spoofButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.spoofButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.spoofButton.Location = new System.Drawing.Point(333, 348);
+            this.spoofButton.Location = new System.Drawing.Point(332, 348);
             this.spoofButton.Margin = new System.Windows.Forms.Padding(2);
             this.spoofButton.Name = "spoofButton";
             this.spoofButton.Size = new System.Drawing.Size(163, 43);
@@ -111,7 +112,7 @@
             this.creatorLabel.Location = new System.Drawing.Point(2, 437);
             this.creatorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.creatorLabel.Name = "creatorLabel";
-            this.creatorLabel.Size = new System.Drawing.Size(327, 13);
+            this.creatorLabel.Size = new System.Drawing.Size(326, 13);
             this.creatorLabel.TabIndex = 2;
             this.creatorLabel.Text = "Created by Founder#8300";
             // 
@@ -122,7 +123,7 @@
             this.whatThisDoesLabel.Location = new System.Drawing.Point(2, 0);
             this.whatThisDoesLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.whatThisDoesLabel.Name = "whatThisDoesLabel";
-            this.whatThisDoesLabel.Size = new System.Drawing.Size(327, 91);
+            this.whatThisDoesLabel.Size = new System.Drawing.Size(326, 91);
             this.whatThisDoesLabel.TabIndex = 3;
             this.whatThisDoesLabel.Text = resources.GetString("whatThisDoesLabel.Text");
             // 
@@ -142,9 +143,9 @@
             // 
             this.cpuSwitch.AutoSize = true;
             this.cpuSwitch.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cpuSwitch.Location = new System.Drawing.Point(501, 3);
+            this.cpuSwitch.Location = new System.Drawing.Point(500, 3);
             this.cpuSwitch.Name = "cpuSwitch";
-            this.cpuSwitch.Size = new System.Drawing.Size(296, 17);
+            this.cpuSwitch.Size = new System.Drawing.Size(297, 17);
             this.cpuSwitch.TabIndex = 5;
             this.cpuSwitch.Text = "x86 MC - 1.18.2 DID ONLY";
             this.cpuSwitch.UseVisualStyleBackColor = true;
